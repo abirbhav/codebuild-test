@@ -5,7 +5,7 @@ p = inflect.engine()
 
 def lambda_handler(event, context):
     # TODO implement
-    word = "birds"
+    word = "bees"
     word = p.singular_noun(word)
     return {
         'statusCode': 200,
