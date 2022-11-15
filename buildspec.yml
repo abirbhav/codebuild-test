@@ -3,4 +3,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync . s3://codepipeline-test --delete
+      - aws s3 sync . s3://codepipeline-test-bucket-abir --delete
